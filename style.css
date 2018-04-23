@@ -1,0 +1,159 @@
+*{
+  box-sizing:border-box;
+}
+body{
+  color:#595959;
+  font-family: serif;
+}
+strong{
+  font-family: 'oswold';
+}
+h1{
+  color:#525252;
+  font-size:3em;
+  font-weight: bold;
+  font-family: 'Francois One', sans-serif;
+
+}
+h2{
+  color:#525252;
+  margin-bottom:.5em;
+  font-weight: bold;
+}
+a.primary{
+  background: #ba6f57;
+  color:#fff;
+  display: inline-block;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  width:150px;
+}
+
+
+
+body>header,main,footer{
+  margin:auto;
+  width:900px;
+}
+.deck.col-1{
+  border-top:1em solid #fff;
+  border-image:linear-gradient(#ccc,#fff) 400;
+  padding-top:1.5em;
+  margin-top:2.5em;
+}
+body>header{
+  columns: #525252;
+  overflow: hidden;
+  position: relative;
+}
+body>header>.title{
+  display:block;
+  font-size: 2em;
+  font-family: 'Yellowtail', cursive;
+}
+body>header strong{
+font-size: .75em;
+}
+
+body>header>img{
+  float: left;
+  margin-right: 1em;
+}
+body>header>nav,
+body>header>nav>ul{
+  float:right;
+  position: relative;
+  top:-6px;
+}
+body>header>nav>ul:first-child{
+  margin-left: 1em;
+}
+nav li{
+  display:inline-block;
+  margin:0;
+  padding:0;
+}
+section.deck{
+  margin:1em 0;
+  overflow:hidden;
+  width:100%;
+}
+.deck.col-1.card{
+  width:100%;
+}
+.card.copy p{
+  font-family: "serif";
+  font-size: 1.25em;
+  margin:1em 0;
+  text-indent:2em;
+  
+}
+.card.bgImage{
+  position:relative;
+}
+.card.bgImage figure{
+  bottom:0;
+  left:0;
+  position:absolute;
+  right:0;
+  top:0;
+  z-index: -1;
+}
+.left{
+  position: relative;
+  float: left;
+  margin:50px;
+  font-family: 'Advent Pro', sans-serif;
+  line-height: 25px;
+  
+  }
+.right{
+  position: relative;
+  float: right;
+  margin:50px;
+  font-family: 'Advent Pro', sans-serif;
+  line-height: 25px;
+}
+
+.horizontal{
+  overflow:hidden;
+  border-bottom: 1px solid gray;
+  height:155px;
+}
+.horizontal figure{
+float: left;
+}
+.horizontal .link{
+  float:right;
+}
+.horizontal .copy{
+  float:left;
+  font-size: 1.1em;
+  padding:0 2em;
+  width:calc(100%- 150px - 75px);
+
+}
+footer{
+  color:#ccc;
+  margin-top:3em;
+  position:relative;
+  text-align:center;
+
+}
+footer img{
+  position: relative;
+  border-left: 1em solid white;
+  border-right:1em solid white;
+  margin-bottom: 1.5em;
+  z-index: 7;
+
+}
+.footer-cap{
+  position: relative;
+  margin-top: -64px;
+
+
+}
+
+
