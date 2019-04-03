@@ -119,7 +119,7 @@ section.deck{
 .horizontal{
   overflow:hidden;
   border-bottom: 1px solid gray;
-  height:155px;
+  height:255px;
 }
 .horizontal figure{
 float: left;
